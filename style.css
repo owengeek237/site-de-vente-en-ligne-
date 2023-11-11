@@ -1,0 +1,195 @@
+/* GENERAL */
+
+* , ::before , ::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: poppins;
+}
+ul
+{
+    list-style: none;  
+}
+a{
+    text-decoration: none;
+}
+p{
+    color: #555;
+}
+
+.header-section
+{
+    margin-top: -20px;
+    background: radial-gradient(#fff , #eaf2fb);
+}
+
+/* CONTENAIR */
+
+.contenair
+{
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+
+
+/* HEADER */
+
+.navebar
+{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.navebar nav ul
+{
+   display: inline-block;
+   
+}
+.navebar nav ul li
+{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navebar .logo img
+{
+    scale: 0.6;
+}
+
+.navebar nav
+{
+    flex: 1;
+    text-align: right;
+}
+.navebar a 
+{
+    color: #555;
+}
+.row
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.col-2
+{
+    flex-basis: 50%;
+    min-width: 300px;
+
+}
+
+.col-2 img
+{
+    width: 100%;
+    padding: 30px 0;
+}
+
+.col-2 h1
+{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 24px 0;
+}
+
+.col-2 a
+{
+    display: inline-block;
+    padding: 10px 30px;
+    background: #16a7b4;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 25px;
+    transition:background-color 0.5s;
+}
+.col-2 a:hover
+{
+    /* background: #106e77; */
+    background-color: yellow;
+}
+
+/* STYLE DE LA SECTION CATHEGORIES */
+
+.cathegories
+{
+   margin: 70px 0;
+}
+
+.col-3
+{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin: auto;
+}
+
+.col-3 img
+{
+    width: 100%;
+}
+
+.contenair h2
+{
+    text-align: center;
+    font-size: 1.8rem;
+     color: #444;
+     margin: 50px 0;
+}
+
+
+/* SECTION MEILLEURES ARTICLE */
+
+.col-4
+{
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 15px;
+    transition: transform 0.4s;
+}
+
+.col-4:hover
+{
+    transform: translateY(-10px);
+}
+
+
+.col-4 img
+{
+    width: 100%;
+
+}
+
+.ratting .star
+{
+    font-size: 20px;
+    color: #16a7b4;
+}
+
+
+/* STYLE JS */
+
+.colselect
+{
+    flex-basis: 35%;
+    flex-direction: row-reverse;
+    min-width: 500px;
+    margin-right: 100%;
+
+}
+
+.itemselect
+{
+    width: 100%;
+}
+
+.disparition
+{
+    display: none;
+}
